@@ -1,0 +1,130 @@
+html {
+  height: 100%;
+  width: 100%;
+  min-height: 100%;
+  align-items: center;
+  max-width: 100%;
+  overflow: scroll;
+}
+
+body {
+  background-image: url("images/pexels-pavel-danilyuk-7594265.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: scroll;
+}
+
+header, nav, body, game {
+  width: 100%;
+  padding: 5px;
+  max-width: 100%
+}
+header {
+  background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0));
+  display: block;
+  top: 0px;
+  left: 0px;
+  font-size: 16px;
+  line-height: 1.2em;
+  list-style-type: none;
+  font-family: 'courier new', serif;
+  text-align: left;
+  color: white;
+ padding-left: 10px;
+  padding-right: 10px;
+  height: 150px;
+  
+
+}
+
+#game {
+height: 100%;
+  margin: 10 0 auto;
+  display: block;
+  position: relative;
+  
+}
+#dealerHand, #myHand {
+  position: relative;
+  display: block;
+  height: 100px;
+  min-width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  
+  
+}
+
+#dealerHand, #myHand, #control{
+  position: relative;
+    min-width: 720pxpx;
+  max-width: 720px;
+  min-height: 85px;
+  margin: 0 auto;
+  }
+
+#control {
+  top: 10px;
+  display: relative;
+  min-height: 75px;
+  padding: 0 5;
+
+
+
+}
+
+#d1, #d2, #d3, #d4, #d5, #m1, #m2, #m3, #m4, #m5 {
+
+  display: inline-block;
+  margin: 1px;
+  width: 50px;
+  height: 75px;
+  border-radius: 2px;
+ 
+}
+button {
+  border-radius: 10px;
+  display: inline-block;
+margin: 0px 10px;
+  font-weight: bold;
+  font-size: 23px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  width: 130px;
+  height: 45px;
+  
+  
+
+  
+}
+#hit {
+   font-family: "brush script MT", serif;
+  color: White;
+  background-color: Black;
+
+}
+
+#stay, #newG {
+  font-family: "courier new", serif;
+  color: black;
+  background-color: white;
+ 
+}
+
+#win, #lose, #top, #tie {
+  position: relative;
+  display: inline-block;
+  max-width: 300px;
+  color: white;
+  text-align: right;
+  line-height: 1em;
+
+
+
+}
+#win, #lose, #tie {
+  visibility: hidden;
+  float: right;
+  margin: 0 0 100px 0;
+
+}

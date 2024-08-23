@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Melissa's BlackJack Game</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+  <header>
+    
+    <div id="top">
+      <h2 id="dealerScore">Dealer Score: </h2>
+      <h2 id="yourScore">Your Score: </h2>
+      </div>
+    <div id="win"><h1 style="font-family: 'Courier New', Georgia, Garamond; font-size: 30px;">Huzzah.</h1> 
+    <p style="font-family: 'brush script MT', serif; font-size: 20px;">It looks like you've WON!</p></div>
+    <div id="lose"><h1 style="font-family: 'Courier New', Georgia, Garamond; font-size: 30px;">OH NO.</h1> 
+    <p style="font-family: 'brush script MT', serif; font-size: 20px;">It appears you have BUSTED.</p></div>
+    <div id="tie"><h1 style="font-family: 'Courier New', Georgia, Garamond; font-size: 40px;">TIE.</h1> 
+      
+    </header>
+  <section id="game">
+
+    <div id="dealerHand">
+      <div id="d1" class="card"></div>
+      <div id="d2" class="card"></div>
+      <div id="d3" class="card"></div>
+      <div id="d4" class="card"></div>
+      <div id="d5" class="card"></div>
+    </div>
+
+    <div id="myHand">
+      <div id="m1" class="card"></div>
+      <div id="m2" class="card"></div>
+      <div id="m3" class="card"></div>
+      <div id="m4" class="card"></div>
+      <div id="m5" class="card"></div>
+    </div>
+    <div id="control">
+    <button id="newG">NEW</button>
+    <button id="hit">HIT</button>
+    <button id="stay">STAY</button>
+    </div>
+  </section>
+
+  <script src="script.js">
+  
+ 
+  </script>
+</body>
+
+</html>
